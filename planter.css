@@ -1,0 +1,46 @@
+.heading{
+    text-align: center;
+    padding:1rem;
+    color: var(--black);
+    font-sixe: 3.5rem;
+}
+
+.product .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product .box-container .box{
+    border:.1rem solid rgba(0,0,0,.1);
+    margin:2rem;
+    padding:1rem;
+    border-radius: .5rem;
+    background:#fff;
+    width: 30rem;
+    text-align: center;
+}
+
+.product .box-container .box img{
+    height:20rem;
+    width:20rem;
+    object-fit: cover;
+}
+
+.product .box-container .box h3{
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.product .box-container .box .price{
+    font-size: 2rem;
+    color:#666;
+}
+
+.product .box-container .box .price span{
+    font-size: 1.5rem;
+    color:#aaa;
+    padding-right: .5rem;
+    text-decoration: line-through;
+}
